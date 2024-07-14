@@ -1,0 +1,19 @@
+title: My Blog
+description: >
+  This is my personal blog built with Jekyll and GitHub Pages.
+baseurl: "" # 如果你的网站不是托管在根目录，设置相应的子目录
+url: "https://CeS-3.github.io" # 网站的基本 URL
+
+# Author settings
+author:
+  name: CeS3
+  email: 1540962271@qq.com
+
+# 其他设置
+markdown: kramdown
+highlighter: rouge
+
+# 添加插件
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
