@@ -20,6 +20,9 @@ jobs:
         with:
           ruby-version: '3.0'
 
+      - name: Install Ruby development environment
+        run: sudo apt-get install -y ruby-dev
+
       - name: Install Bundler
         run: gem install bundler:2.5.15
 
@@ -33,4 +36,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
           publish_dir: ./_site
