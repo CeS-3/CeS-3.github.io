@@ -9,7 +9,10 @@ author:
   name: CeS3
   email: 1540962271@qq.com
 
-# 其他设置
+# 使用的主题
+theme: minimal-mistakes-jekyll
+
+# Markdown 设置
 markdown: kramdown
 highlighter: rouge
 
