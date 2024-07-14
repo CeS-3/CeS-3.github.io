@@ -12,27 +12,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Set up Ruby environment
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'  # 选择你需要的 Ruby 版本
+          ruby-version: '3.0'
 
-      # Install dependencies
+      - name: Install Bundler
+        run: gem install bundler:2.5.15
+
       - name: Install dependencies
-        run: |
-          gem install bundler
-          bundle install
+        run: bundle install
 
-      # Build the site
       - name: Build site
         run: bundle exec jekyll build
 
-      # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
