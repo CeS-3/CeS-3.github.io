@@ -1,14 +1,14 @@
 # site settings
-title: Forty
-subtitle: by HTML5 UP
+title: CeS3
+subtitle: 
 email: 1540962271@qq.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ces-3.github.io/ # the base hostname & protocol for your site
 author: CeS3
-street_address: 
-city: 
-state: 
+street_address:
+city:
+state:
 zip_code:
 country: China
 phone: (86)18650520938

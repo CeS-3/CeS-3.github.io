@@ -1,0 +1,14 @@
+# Ignore Jekyll generated files
+_site/
+.sass-cache/
+.jekyll-metadata
+.jekyll-cache/
+# Ignore bundler config
+/.bundle
+
+# Ignore node modules
+node_modules/
+
+# Ignore logs and temp files
+*.log
+*.tmp
