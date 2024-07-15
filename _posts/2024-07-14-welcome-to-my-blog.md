@@ -1,8 +1,8 @@
 ---
-layout: single
-title: "Welcome to My Blog"
-date: 2024-07-14 10:00:00 +0000
-categories: jekyll update
+layout: post
+title: Welcome!!!!
+description: Feugiat amet tempus
+image: assets/images/pic06.jpg
 ---
 
 This is my first blog post. Welcome to my blog!

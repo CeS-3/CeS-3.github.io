@@ -1,22 +1,44 @@
-title: My Blog
-description: >
-  This is my personal blog built with Jekyll and GitHub Pages.
-baseurl: "" # 如果你的网站不是托管在根目录，设置相应的子目录
-url: "https://CeS-3.github.io" # 网站的基本 URL
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: 1540962271@qq.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://ces-3.github.io/ # the base hostname & protocol for your site
+author: CeS3
+street_address: 
+city: 
+state: 
+zip_code:
+country: China
+phone: (86)18650520938
 
-# Author settings
-author:
-  name: CeS3
-  email: 1540962271@qq.com
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# 使用的主题
-theme: minimal-mistakes-jekyll
+# social settings (key must match name of font awesome icon)
+# see https://fontawesome.com/icons?d=gallery&p=2&s=brands
+# Icons are not shown if value is empty
+# You need to restart jekyll for changes to have an effect
+socials:
+  GitHub: https://github.com/CeS-3/
+  GitLab:
+  Google-Plus:
+  Instagram:
+  LinkedIn:
+  Twitter:
+  Facebook:
+  Slack:
 
-# Markdown 设置
+# build settings
 markdown: kramdown
-highlighter: rouge
 
-# 添加插件
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
+sass:
+  style: compressed
+
+exclude:
+- "*.gemspec"
+- LICENSE.md
+- CONTRIBUTING.md
+- README.md 
