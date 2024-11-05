@@ -6,6 +6,7 @@ tags: [虚拟化]
 image: 
     path: assets/img/bg/pic02.jpg
     lqip: assets/img/bg/pic02.jpg
+published: false
 ---
 在使用 VMware 与 Windows Subsystem for Linux（WSL）时，可能会遇到不兼容的问题。这种不兼容主要是由于两者都需要对系统的虚拟化技术进行控制和使用。当你尝试在同一台机器上同时运行 VMware 和 WSL 时，可能会遇到以下问题：
 
